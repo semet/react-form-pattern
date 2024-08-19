@@ -1,7 +1,7 @@
-import React from 'react'
+import { HomepageWrapper } from '@/features/homepage'
 
 const Home = () => {
-  return <div>Home</div>
+  return <HomepageWrapper />
 }
 
 export default Home

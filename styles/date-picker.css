@@ -1,0 +1,43 @@
+@import 'react-date-picker/dist/DatePicker.css';
+@import 'react-calendar/dist/Calendar.css';
+
+.react-date-picker__wrapper {
+  @apply w-full rounded border-none bg-white;
+}
+.react-date-picker__inputGroup__input {
+  @apply h-fit text-gray-600;
+}
+
+.react-date-picker__inputGroup__divider {
+  @apply bg-transparent text-gray-500;
+}
+
+.react-calendar {
+  @apply mt-1 rounded border-none px-2 py-4 shadow-lg;
+}
+.react-date-picker__inputGroup__input:invalid {
+  @apply bg-inherit;
+}
+
+.react-calendar__navigation__arrow,
+.react-calendar__navigation__label {
+  @apply rounded hover:bg-indigo-500 hover:text-white !important;
+}
+.react-calendar__tile--active {
+  @apply rounded bg-indigo-500 text-white hover:bg-indigo-700 !important;
+}
+.react-calendar__tile--now {
+  @apply rounded bg-rose-500 text-white hover:bg-rose-700 !important;
+}
+.react-calendar__month-view__weekdays__weekday > abbr {
+  @apply text-gray-600 no-underline;
+}
+.react-calendar__month-view__days__day {
+  @apply hover:rounded;
+}
+.react-date-picker__inputGroup__leadingZero {
+  @apply invisible;
+}
+.react-date-picker__button__icon {
+  @apply stroke-gray-500 hover:stroke-indigo-500 !important;
+}

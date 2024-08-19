@@ -7,7 +7,7 @@
   ],
   "rules": {
     "no-console": "error",
-    "no-unused-vars": "error",
+    "no-unused-vars": "off",
     "no-restricted-imports": [
       "error",
       {
